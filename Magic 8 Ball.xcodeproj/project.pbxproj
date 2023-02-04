@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD7D68C622B8EB54009C798B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7D68C522B8EB54009C798B /* README.md */; };
 		ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */; };
 		ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */; };
 		ADE1FB4822B3A4B100DD2BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 		ADE1FB3722B3A4B100DD2BD6 = {
 			isa = PBXGroup;
 			children = (
-				AD7D68C522B8EB54009C798B /* README.md */,
 				ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */,
 				ADE1FB4122B3A4B100DD2BD6 /* Products */,
 			);
@@ -62,9 +59,9 @@
 				ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */,
 				ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */,
 				ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */,
+				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
 				ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */,
 				ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */,
-				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
 			);
 			path = "Magic 8 Ball";
@@ -130,7 +127,6 @@
 			files = (
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
-				AD7D68C622B8EB54009C798B /* README.md in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,13 +285,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAWU778PAQ;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkzwk.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -306,13 +307,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAWU778PAQ;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Magic-8-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkzwk.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
